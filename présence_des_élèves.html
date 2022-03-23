@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Présence_des_élèves Projet_Ecole</title>
+</head>
+<body class="">
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Bootstrap Sidebar</h3>
+                <strong>BS</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-briefcase"></i>
+                        About
+                    </a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-copy"></i>
+                        Pages
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-image"></i>
+                        Portfolio
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                </li>
+                <li>
+                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container a">
+                <div class="row">
+                    <div class="col bg-light">
+                        <div class="row">
+                            <div class="col d-flex">
+                                <i></i>
+                                <h3>Feuille de présence</h3>
+                            </div>
+                            <div class="col a d-flex">
+                                <i></i>
+                                <h5>Tableau de bord</h5>
+                                <h5>Présence des élèves</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col h bg-light">
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-outline-warning"> + Faire l'appel</button>
+                            </div>
+                            <div class="col offset-7">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Sélectionner la classe
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                      <li><button class="dropdown-item" type="button">Action</button></li>
+                                      <li><button class="dropdown-item" type="button">Another action</button></li>
+                                      <li><button class="dropdown-item" type="button">Something else here</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  
+                        <div class="row">
+                            <div class="col-md-6 mx-auto">
+                
+                                <h3> Bootstrap Datepicker </h3>
+                
+                                
+                                <div class="form-group">
+                                    <div class=" datepicker date input-group shadow-sm">
+                                        <input type="text" placeholder="Choisir une date" class="form-control py-4 px-4" id="reservationDate">
+                                        <div class="input-group-append"><span class="input-group-text px-4"><i class="fa fa-calendar"></i></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!--
+                        <div class="datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-bottom" style="top: 153.594px; left: 521.5px; z-index: 10; display: block;"><div class="datepicker-days" style="">
+                            <table class="table-condensed">
+                                <thead>
+                                    <tr>
+                                        <th colspan="7" class="datepicker-title" style="display: none;"></th>
+                                    </tr>
+                                    <tr>
+                                        <th class="prev">«</th>
+                                        <th colspan="5" class="datepicker-switch">April 2023</th>
+                                        <th class="next">»</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="dow">Su</th>
+                                        <th class="dow">Mo</th>
+                                        <th class="dow">Tu</th>
+                                        <th class="dow">We</th>
+                                        <th class="dow">Th</th>
+                                        <th class="dow">Fr</th>
+                                        <th class="dow">Sa</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="old day" data-date="1679788800000">26</td>
+                                        <td class="old day" data-date="1679875200000">27</td>
+                                        <td class="old day" data-date="1679961600000">28</td>
+                                        <td class="old day" data-date="1680048000000">29</td>
+                                        <td class="old day" data-date="1680134400000">30</td>
+                                        <td class="old day" data-date="1680220800000">31</td>
+                                        <td class="day" data-date="1680307200000">1</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day" data-date="1680393600000">2</td>
+                                        <td class="day" data-date="1680480000000">3</td>
+                                        <td class="day" data-date="1680566400000">4</td>
+                                        <td class="day" data-date="1680652800000">5</td>
+                                        <td class="day" data-date="1680739200000">6</td>
+                                        <td class="day" data-date="1680825600000">7</td>
+                                        <td class="day" data-date="1680912000000">8</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day" data-date="1680998400000">9</td>
+                                        <td class="day" data-date="1681084800000">10</td>
+                                        <td class="day" data-date="1681171200000">11</td>
+                                        <td class="day" data-date="1681257600000">12</td>
+                                        <td class="day" data-date="1681344000000">13</td>
+                                        <td class="day" data-date="1681430400000">14</td>
+                                        <td class="day" data-date="1681516800000">15</td>
+                                    </tr>
+                                    <tr><td class="day" data-date="1681603200000">16</td>
+                                        <td class="day" data-date="1681689600000">17</td>
+                                        <td class="day" data-date="1681776000000">18</td>
+                                        <td class="day" data-date="1681862400000">19</td>
+                                        <td class="day" data-date="1681948800000">20</td>
+                                        <td class="day" data-date="1682035200000">21</td>
+                                        <td class="day" data-date="1682121600000">22</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="day" data-date="1682208000000">23</td>
+                                        <td class="day" data-date="1682294400000">24</td>
+                                        <td class="day" data-date="1682380800000">25</td>
+                                        <td class="day" data-date="1682467200000">26</td>
+                                        <td class="day" data-date="1682553600000">27</td>
+                                        <td class="day" data-date="1682640000000">28</td>
+                                        <td class="day" data-date="1682726400000">29</td>
+                                    </tr>
+                                    <tr><td class="day" data-date="1682812800000">30</td>
+                                        <td class="new day" data-date="1682899200000">1</td>
+                                        <td class="new day" data-date="1682985600000">2</td>
+                                        <td class="new day" data-date="1683072000000">3</td>
+                                        <td class="new day" data-date="1683158400000">4</td>
+                                        <td class="new day" data-date="1683244800000">5</td>
+                                        <td class="new day" data-date="1683331200000">6</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th colspan="7" class="today" style="display: none;">Today</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="7" class="clear" style="display: table-cell;">Clear</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div> -->
+                        <!-- 
+                        <div class="datepicker-months" style="display: none;">
+                            <table class="table-condensed">
+                                <thead>
+                                    <tr>
+                                        <th colspan="7" class="datepicker-title" style="display: none;"></th>
+                                    </tr>
+                                    <tr>
+                                        <th class="prev">«</th>
+                                        <th colspan="5" class="datepicker-switch">2023</th>
+                                        <th class="next">»</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="7">
+                                            <span class="month">Jan</span>
+                                            <span class="month">Feb</span>
+                                            <span class="month">Mar</span>
+                                            <span class="month focused">Apr</span>
+                                            <span class="month">May</span>
+                                            <span class="month">Jun</span>
+                                            <span class="month">Jul</span>
+                                            <span class="month">Aug</span>
+                                            <span class="month">Sep</span>
+                                            <span class="month">Oct</span>
+                                            <span class="month">Nov</span>
+                                            <span class="month">Dec</span>
+                                        </td>
+                                    </tr></tbody><tfoot><tr><th colspan="7" class="today" style="display: none;">Today</th></tr><tr><th colspan="7" class="clear" style="display: table-cell;">Clear</th></tr></tfoot></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th colspan="7" class="datepicker-title" style="display: none;"></th></tr><tr><th class="prev">«</th><th colspan="5" class="datepicker-switch">2020-2029</th><th class="next">»</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2019</span><span class="year">2020</span><span class="year">2021</span><span class="year">2022</span><span class="year focused">2023</span><span class="year">2024</span><span class="year">2025</span><span class="year">2026</span><span class="year">2027</span><span class="year">2028</span><span class="year">2029</span><span class="year new">2030</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today" style="display: none;">Today</th></tr><tr><th colspan="7" class="clear" style="display: table-cell;">Clear</th></tr></tfoot></table></div><div class="datepicker-decades" style="display: none;"><table class="table-condensed"><thead><tr><th colspan="7" class="datepicker-title" style="display: none;"></th></tr><tr><th class="prev">«</th><th colspan="5" class="datepicker-switch">2000-2090</th><th class="next">»</th></tr></thead><tbody><tr><td colspan="7"><span class="decade old">1990</span><span class="decade">2000</span><span class="decade">2010</span><span class="decade focused">2020</span><span class="decade">2030</span><span class="decade">2040</span><span class="decade">2050</span><span class="decade">2060</span><span class="decade">2070</span><span class="decade">2080</span><span class="decade">2090</span><span class="decade new">2100</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today" style="display: none;">Today</th></tr><tr><th colspan="7" class="clear" style="display: table-cell;">Clear</th></tr></tfoot></table></div><div class="datepicker-centuries" style="display: none;"><table class="table-condensed"><thead><tr><th colspan="7" class="datepicker-title" style="display: none;"></th></tr><tr><th class="prev">«</th><th colspan="5" class="datepicker-switch">2000-2900</th><th class="next">»</th></tr></thead><tbody><tr><td colspan="7"><span class="century old">1900</span><span class="century focused">2000</span><span class="century">2100</span><span class="century">2200</span><span class="century">2300</span><span class="century">2400</span><span class="century">2500</span><span class="century">2600</span><span class="century">2700</span><span class="century">2800</span><span class="century">2900</span><span class="century new">3000</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today" style="display: none;">Today</th></tr><tr><th colspan="7" class="clear" style="display: table-cell;">Clear</th></tr></tfoot></table></div></div>
+                        </div>
+                    </div>
+                </div>  -->
+                <div class="row">
+                    <div class="col">
+                        <table class="table caption-top">
+                            <caption>List of users</caption>
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+
+   
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-datepicker.min.js"></script>
+    <script src="script.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
