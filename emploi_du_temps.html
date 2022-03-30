@@ -10,115 +10,114 @@
 </head>
 <body class="">
 
-    <div class="wrapper">
-        <!-- Sidebar  -->
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
-                <strong>BS</strong>
+  <div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <a class="ml-5" href="#">
+                <img class="logo-dashboard" src="images/logo_carmel.png" alt="logo_carmel">
+            </a>                
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="exampleDataList" class="form-label ml-5">Recherche</label>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Taper pour rechercher...">
+                <datalist id="datalistOptions">
+                    <option value="Gestion de l'école"></option>
+                    <option value="Gestion du temps"></option>
+                </datalist>
             </div>
+        </div>
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                    <i class="fas fa-fw fa-school"></i>
+                    Gestion de l'école
+                </a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="inscription_étudiants.html">Inscriptions/Réinscriptions</a>
+                    </li>
+                    <li>
+                        <a href="#">Elèves</a>
+                    </li>
+                    <li>
+                        <a href="#">Programmes</a>
+                    </li>
+                    <li>
+                        <a href="#">Enseignants</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="active">
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                    <i class="fas fa-fw fa-calendar"></i>
+                    Gestion du temps
+                </a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="emploi_du_temps.html">Emploi du temps</a>
+                    </li>
+                    <li>
+                        <a href="présence_des_élèves.html">Présence des élèves</a>
+                    </li>
+                    <li>
+                        <a href="présence_des_professeurs.html">Présence des professeurs</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="active">
+                <a href="#">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    Statistiques
+                </a>
+            </li>
+            <li class="active">
+                <a href="#">
+                    <i class="fas fa-fw fa-circle-user"></i>
+                    Se déconnecter
+                </a>
+            </li>
 
-            <ul class="list-unstyled components">
-                <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                        <i class="fas fa-home"></i>
-                        Home
-                    </a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li>
-                            <a href="#">Home 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Home 3</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-briefcase"></i>
-                        About
-                    </a>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                        <i class="fas fa-copy"></i>
-                        Pages
-                    </a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="#">Page 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Page 3</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-image"></i>
-                        Portfolio
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-question"></i>
-                        FAQ
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-paper-plane"></i>
-                        Contact
-                    </a>
-                </li>
-            </ul>
-
-            <ul class="list-unstyled CTAs">
-                <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
-                </li>
-                <li>
-                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-                </li>
-            </ul>
-        </nav>
-
+        </ul>
+    </nav>
         <!-- Page Content  -->
         <div id="content">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
 
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-                    </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
+                  <button type="button" id="sidebarCollapse" class="btn btn-info">
+                      <i class="fas fa-align-left"></i>
+                  </button>
+                  <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fas fa-faw fa-align-justify"></i>
+                  </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="nav navbar-nav ml-auto">
+                          <li class="nav-item d-flex">
+                              
+                              <button type="button" class="btn btn-primary"><i class="fas fa-fw fa-bell"></i>
+                                  Notifications <span class="badge bg-secondary">4</span>
+                                </button>
+                          </li>
+                          <li class="nav-item d-flex">
+                              <button type="button" class="btn btn-primary"><i class="fas fa-fw fa-info"></i>
+                                  Informations <span class="badge bg-secondary">4</span>
+                                </button>
+                          </li>
+                          <li class="nav-item">
+                              <button type="button" class="btn btn-primary">
+                                  <i class="fas faw fa-light fa-calendar"></i>
+                                  Année-scolaire 
+                                </button>
+                          </li>
+                          
+                      </ul>
+                  </div>
+              </div>
+          </nav>
             <div class="container a">
                 <div class="row">
                     <div class="col bg-light">
@@ -144,9 +143,10 @@
                           Sélectionner la classe
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                          <li><button class="dropdown-item" type="button">Action</button></li>
-                          <li><button class="dropdown-item" type="button">Another action</button></li>
-                          <li><button class="dropdown-item" type="button">Something else here</button></li>
+                          <li><button class="dropdown-item" type="button">Salle 1</button></li>
+                                      <li><button class="dropdown-item" type="button">Salle 2</button></li>
+                                      <li><button class="dropdown-item" type="button">Salle 3</button></li>
+                                      <li><button class="dropdown-item" type="button">Salle 4</button></li>
                         </ul>
                     </div>
                 </div>
@@ -297,7 +297,7 @@
         });
     </script>
 
-   
+<script src="https://kit.fontawesome.com/284c0ff8c5.js" crossorigin="anonymous"></script>
     
 
 
